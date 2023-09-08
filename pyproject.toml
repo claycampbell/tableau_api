@@ -6,9 +6,11 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-flask = "^2.3.3"
-graphene = {git = "https://github.com/claycampbell/graphene.git", rev = "master"}
+graphene = { git = "https://github.com/claycampbell/graphene.git", branch = "master" }
+flask-graphql = "^2.0.1"
+graphql-relay = "^2.0.1"
+graphql-server-core = "^1.2.0"
+
 
 
 [build-system]
