@@ -3,7 +3,7 @@ blinker==1.6.2
 click==8.1.7
 Flask==2.3.3
 Flask-GraphQL==2.0.1
-graphene==2.1.8
+git+https://github.com/claycampbell/graphene.git@master#egg=graphene
 graphql-core==2.3.2
 graphql-relay==2.0.1
 graphql-server-core==1.2.0
